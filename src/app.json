@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/mine/main",
+    "pages/counter/main",
+    "pages/detail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "天天日报",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#d81e06",
+    "borderStyle": "white",
+
+    "list": [
+      {
+        "text": "推荐",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/tuijian.png",
+        "selectedIconPath": "static/tabs/tuijian-on.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/main",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine-on.png"
+      }
+    ],
+
+    "items": [
+      {
+        "name": "推荐",
+        "pagePath": "pages/index/main",
+        "icon": "static/tabs/tuijian.png",
+        "activeIcon": "static/tabs/tuijian-on.png"
+      },
+      {
+        "name": "我的",
+        "pagePath": "pages/mine/main",
+        "icon": "static/tabs/mine.png",
+        "activeIcon": "static/tabs/mine-on.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
